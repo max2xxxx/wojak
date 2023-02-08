@@ -1,0 +1,103 @@
+/*
+    Wojak Studio (as WS) by PL Philippon - 2021
+    Dependecies :
+        - Fabricjs : http://fabricjs.com/
+        - pickr : https://github.com/Simonwep/pickr
+        - Dexie.js : https://dexie.org/
+        - FontAwesome : https://fontawesome.com
+
+    Themes CSS
+*/
+
+.classic{
+    /* Couleur des bordures du calque sélectionné */
+    --fabricBorderColor:#569ae3;
+    /* Couleur des coins du calque sélectionné */
+    --fabricCornerColor:#569ae3;
+    /* Carré foncé du fond de canvas */
+    --canvasBGDark:#333;
+    /* Carré claire du fond de canvas */
+    --canvasBGBright:#444;
+    /* Fond des élément principaux de l'interface  */
+    --mainUIElemBG:#05152A;
+    /* Fond de la liste des calques */
+    --layerListBG:#05152A;
+    /* texte du header */
+    --headerColor:#cfd9e5;
+    /* fond du header */
+    --headerBG:#192E49;
+    /* texte du menu */
+    --menuColor:#fff;
+    /* text du menu au survol */
+    --menuColorHover:#fff;
+    /* Bordure des élément principaux de l'interface */
+    --mainElemBorder:#344760;
+    /* Fond du conteneur des preview */
+    --mContBG:#2a3646;
+    /* Fond des previews */
+    --mPrevBG:#495d77;
+    /* Fond des previews au survol */
+    --mPrevBGHover:#819e83;
+    /* text des previews */
+    --mPrevDescColor:#fff;
+    /* icone des outils */
+    --toolIcoColor:#b2b2b2;
+    /* icones des outils au survol */
+    --toolIcoColorHover:#fff;
+    /*  */
+    --toolActive:rgba(255,255,255,0.3);
+    /*  */
+    --toolActiveIco:#fff;
+    /* séparateur d'icone des outils */
+    --toolSeparator:#5b646f;
+    /* bordure du sélecteur de couleur dans la barre de texte */
+    --textPickrSelectorBorder:#445d7c;
+    /* fond des icones de configuration de texte : alignement, style, etc... */
+    --textToolHover:#495d77;
+}
+
+.gold{
+    --fabricBorderColor:#988230;
+    --fabricCornerColor:#988230;
+    --canvasBGDark:#dacea6;
+    --canvasBGBright:#fff;
+    --mainUIElemBG:#fff;
+    --layerListBG:#988230;
+    --headerColor:#ae8e1b;
+    --headerBG:#fff;
+    --menuColor:#ae8e1b;
+    --menuColorHover:#fff;
+    --mainElemBorder:#ae8e1b;
+    --mContBG:#ccae43;
+    --mPrevBG:#988230;
+    --mPrevBGHover:#f2cf4f;
+    --mPrevDescColor:#473700;
+    --toolIcoColor:#a78200;
+    --toolIcoColorHover:#fff;
+    --toolSeparator:#d1b960;
+    --textPickrSelectorBorder:#d1b960;
+    --textToolHover:#f7d769;
+}
+
+.blood{
+    --fabricBorderColor:#ddb7b7;
+    --fabricCornerColor:#ddb7b7;
+    --canvasBGDark:#573a3a;
+    --canvasBGBright:#996363;
+    --mainUIElemBG:#a00000;
+    --layerListBG:#a00000;
+    --headerColor:#ffffff;
+    --headerBG:#941e1e;
+    --menuColor:#fff;
+    --menuColorHover:#fff;
+    --mainElemBorder:#4b1010;
+    --mContBG:#641414;
+    --mPrevBG:#983030;
+    --mPrevBGHover:#b65656;
+    --mPrevDescColor:#fff;
+    --toolIcoColor:#ffd2d2;
+    --toolIcoColorHover:#fff;
+    --toolSeparator:#380606;
+    --textPickrSelectorBorder:#380606;
+    --textToolHover:#470f0f;
+}
